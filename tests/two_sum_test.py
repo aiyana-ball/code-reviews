@@ -1,5 +1,5 @@
 import pytest
-from functions.two_sum import twoSum
+from functions.two_sum import two_sum
 
 def test_returns_0_1_for_2_7_11_15_with_target_9():
     # Arrange
@@ -7,7 +7,7 @@ def test_returns_0_1_for_2_7_11_15_with_target_9():
     t = 9
 
     # Act
-    answer = twoSum(n, t)
+    answer = two_sum(n, t)
 
     # Assert
     assert answer == [0, 1]
@@ -19,7 +19,7 @@ def test_returns_1_2_for_3_2_4_with_target_6():
     t = 6
 
     # Act
-    answer = twoSum(n, t)
+    answer = two_sum(n, t)
 
     # Assert
     assert answer == [1, 2]
@@ -31,7 +31,7 @@ def test_returns_0_1_for_3_3_with_target_6():
     t = 6
 
     # Act
-    answer = twoSum(n, t)
+    answer = two_sum(n, t)
 
     # Assert
     assert answer == [0, 1]
