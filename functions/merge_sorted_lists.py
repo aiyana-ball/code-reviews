@@ -1,4 +1,4 @@
-def merge_sorted_lists(l1, l2):
-    merged = l1 + l2
+def merge_sorted_lists(list1, list2):
+    merged = list1 + list2
 
     return sorted(merged)
